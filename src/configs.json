@@ -1,3 +1,7 @@
 {
-    "DATASET_BASE_PATH": "../GitHub Repo Sample Data/"
+    "DATASET_BASE_PATH": "../GitHub Repo Sample Data/",
+    "OUTPUTS_BASE_PATH": "Outputs/",
+    "PLOTS_BASE_PATH": "Plots/",
+    "PLOTS_DPI": 150,
+    "SYMBOL_COL_PREFIX": "Ratio "
 }
