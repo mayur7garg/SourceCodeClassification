@@ -13,6 +13,19 @@
             "MODEL_NAME": "Baseline_RF",
             "FOLDS": 5,
             "GRID_ITER": 20
+        },
+        "DEEP_LSTM": {
+            "MODEL_NAME": "Deep_LSTM",
+            "EMBEDDINGS_FOLDER": "Deep_LSTM_Embeddings",
+            "BUFFER_SIZE": 1000,
+            "BATCH_SIZE": 16,
+            "VOCAB_SIZE": 5000,
+            "SEQ_LEN": 4096,
+            "N_GRAMS": 2,
+            "EPOCHS": 15,
+            "LEARNING_RATE": 0.0005,
+            "TRAINING_STEPS": 2000,
+            "VALIDATION_STEPS": 100
         }
     }
 }
